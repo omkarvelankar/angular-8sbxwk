@@ -23,8 +23,8 @@ this.items=[];
 return this.items;
   }
 
-  getShippingPrices(){
-    return this.http.get('/assest/shipping.json')
+   getShippingPrices() {
+    return this.http.get('/assets/shipping.json');
   }
 
 }
